@@ -1,0 +1,21 @@
+body {
+ background-image: linear-gradient(#FFFFFF,#DE0439);
+ font-family: American Typewriter, serif;
+ font-size: 100%
+}
+
+h1{
+font-size: 250%;
+color: #273746;
+text-align: center;
+}
+
+h2{
+font-size:150%;
+color:#7B241C;
+padding-left: 15px;
+}
+
+p{
+color: #1B2631;
+}
