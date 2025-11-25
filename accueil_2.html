@@ -1,1 +1,107 @@
-bhhvhvhhh
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Bonita</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 80px 20px;
+        }
+
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h2 {
+            font-weight: 300;
+            margin-top: 0;
+            opacity: 0.9;
+        }
+
+        section {
+            margin: 40px auto;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            animation: slideUp 1.4s ease;
+        }
+
+        a.button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background: #ffffff;
+            color: #333;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        a.button:hover {
+            background: #ffdd57;
+            transform: scale(1.1);
+        }
+
+        footer {
+            margin: 40px 0;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>¡Bienvenido a mi página!</h1>
+        <h2>Hecha con ❤️ para GitHub Pages</h2>
+    </header>
+
+    <section>
+        <h2>Sobre mí</h2>
+        <p>Hola, soy un desarrollador apasionado por el código, el diseño y la creatividad.  
+        Aquí comparto mis proyectos, ideas y experimentos.</p>
+
+        <a class="button" href="https://github.com/" target="_blank">Visitar mi GitHub</a>
+    </section>
+
+    <section>
+        <h2>Proyectos destacados</h2>
+        <ul style="list-style:none; padding:0;">
+            <li>✨ Proyecto 1 — Página web responsive</li>
+            <li>🚀 Proyecto 2 — App interactiva</li>
+            <li>🎨 Proyecto 3 — Diseño UI elegante</li>
+        </ul>
+    </section>
+
+    <footer>
+        © 2025 Mi Página Bonita
+    </footer>
+
+</body>
+</html>
